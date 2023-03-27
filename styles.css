@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    position: relative;
+    top: 100px;
+    width: 280px;
+    height: 450px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    padding: 15px 15px 0;
+    border-radius: 25px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 15px 20px;
+    padding: 0 5px;
+    text-align: right;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom: 40px;
+    color: hsl(212, 45%, 89%);
+}
+
+/* font family */
+
+.font {
+    font-family: 'Outfit', sans-serif;
+}
